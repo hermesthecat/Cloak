@@ -6,6 +6,7 @@ mkdir -p release
 
 rm -f ./release/*
 
+
 if [ -z "$v" ]; then
 	echo "Version number cannot be null. Run with v=[version] release.sh"
 	exit 1
